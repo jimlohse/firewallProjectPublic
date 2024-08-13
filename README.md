@@ -8,7 +8,7 @@ Once I get these files tightened up, I'll keep them shared publicly to help othe
 
 ## Steps to Mention
 
-- First I would mention that I use the emergent rules and the ones I found were for Snort 2. You need to get the `snort2lua` executable (for Linux) and convert the rules files to Snort 3 format. Even after conversion there were some issues with the version of Snort I used so I wrote the convert_rules.sh script to be used after you run `snort2lua`.
+- Rulesets: I would mention that I use the [Emergent Threats](https://rules.emergingthreats.net/OPEN_download_instructions.html) rules. The ones I found were for Snort 2. You need to get the `snort2lua` executable (for Linux) and convert the rules files to Snort 3 format. Even after conversion there were some issues with the version of Snort I used so I wrote the convert_rules.sh script to be used after you run `snort2lua`.
 
 - Help is More Rare: I would mention that most of the advice out there is for Snort 2's old-style `snort.conf` files. The new Snort 3 uses the snort.lua file, which is written in the Lau language. It's pretty cool once you get used to it.
 
