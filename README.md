@@ -39,6 +39,25 @@ Here in the Firewall Project students will do a section of the project learning 
 
 In theory, Snort3 will have rules setup to block and alert on such attacks. There will be another container that watches the Snort 3 log files for the correct output. When the monitor program sees the output it's looking for, it will give the student a flag to submit for credit on the project.
 
+## Links to Useful Resources
+
+
+
+Snort Downloads -- [Sources, Binaries, Documentation](https://www.snort.org/downloads)
+Emerging Threats Rules -- [Look through the various directories for rules](https://rules.emergingthreats.net/)
+Emerging Threats Blog -- [Snort3, Snort2lua, and the Emerging Threats Snort 2.9 ruleset](https://community.emergingthreats.net/t/snort3-snort2lua-and-the-emerging-threats-snort-2-9-ruleset/475)
+Source Code -- [](https://github.com/snort3/snort3/blob/master/lua/snort.lua)
+Source Code -- [](https://github.com/snort3/snort3/blob/master/lua/snort_defaults.lua)
+Snort Docs -- [File handling rules](https://docs.snort.org/rules/headers/file_rules)
+Snort Docs -- [File Identification Rules](https://docs.snort.org/rules/headers/file_id_rules)
+Source Code -- [File Magic Rules](https://github.com/snort3/snort3/blob/master/lua/file_magic.rules)
+Snort Docs -- [fast_pattern](https://docs.snort.org/rules/options/payload/fast_pattern)
+Snort Blog -- [Converting custom Snort 2 rules for Snort 3 compatibility](https://blog.snort.org/2020/09/converting-custom-snort-2-rules-for.html)
+Snort Docs -- [Writing rules, services in place of protocols](https://docs.snort.org/rules/headers/protocols)
+Snort Docs -- [snort.lua ips section detailed with rules format, using `-Q --daq` when starting Snort in IPS mode](https://docs.snort.org/start/rules 
+NFQ vs. af_packet -- [Snort IPS With NFQ (nfqueue) Routing on Ubuntu](https://sublimerobots.com/2017/06/snort-ips-with-nfq-routing-on-ubuntu/)
+Snort Docs -- [Payload Detection Rule options](https://docs.snort.org/rules/options/payload/)
+NFQ code -- [Snort's Github page for daq_nfq.c](https://github.com/snort3/libdaq/blob/master/modules/nfq/daq_nfq.c)
 
 
 
