@@ -1,6 +1,6 @@
 # firewallProjectPublic
 
-Hi, I'm sharing several Snort 3 config files here. 
+Hi, I'm sharing several Snort 3 and Docker config files here. 
 
 Originally I posted this seeking help in getting Snort 3 running in a Docker container (inside a VM, to boot). 
 
