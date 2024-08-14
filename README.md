@@ -17,9 +17,9 @@ Once I get these files tightened up, I'll keep them shared publicly to help othe
 
 ## Steps to Mention
 
-- Rulesets: I would mention that I use the [Emergent Threats](https://rules.emergingthreats.net/OPEN_download_instructions.html) rules. The ones I found were for Snort 2. You need to get the `snort2lua` executable (for Linux) and convert the rules files to Snort 3 format. Even after conversion there were some issues with the version of Snort I used so I wrote the convert_rules.sh script to be used after you run `snort2lua`.
+- Rulesets: In part, I use the [Emergent Threats](https://rules.emergingthreats.net/OPEN_download_instructions.html) rules. The ones I found were for Snort 2. You need to get the `snort2lua` executable (for Linux) and convert the rules files to Snort 3 format. Even after conversion there were some issues with the version of Snort I used so I wrote the convert_rules.sh script to be used after you run `snort2lua`.
 
-- Help is More Rare: I would mention that most of the advice out there is for Snort 2's old-style `snort.conf` files. The new Snort 3 uses the snort.lua file, which is written in the Lau language. It's pretty cool once you get used to it.
+- Help is More Rare: Most of the advice out there is for Snort 2's old-style `snort.conf` files. The new Snort 3 uses the snort.lua file, which is written in the Lau language. It's pretty cool once you get used to it.
 
 - Novice Docker: Please don't laugh too hard at my poor Dockerfile, it's a learning experience and I already see better ways to do things in a more compact fashion.
 
@@ -41,9 +41,10 @@ In theory, Snort3 will have rules setup to block and alert on such attacks. Ther
 
 ## Links to Useful Resources
 
-
-
+Why Snort 3? -- [Differences between Snort 2 and 3 -- Overview](https://www.snort.org/snort3)
+Snort 2 vs 3 -- [Detailed differences](https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/004/341/original/snort3_information.pdf?1612471639)
 Snort Downloads -- [Sources, Binaries, Documentation](https://www.snort.org/downloads)
+Q&A about Snort 3 -- [Questions and Issues](https://snort-sigs.narkive.com/KCogoq3o/snort-devel-snort3-ips-questions-issues-and-requests)
 Emerging Threats Rules -- [Look through the various directories for rules](https://rules.emergingthreats.net/)
 Emerging Threats Blog -- [Snort3, Snort2lua, and the Emerging Threats Snort 2.9 ruleset](https://community.emergingthreats.net/t/snort3-snort2lua-and-the-emerging-threats-snort-2-9-ruleset/475)
 Source Code -- [](https://github.com/snort3/snort3/blob/master/lua/snort.lua)
