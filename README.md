@@ -60,8 +60,7 @@ NFQ vs. af_packet -- [Snort IPS With NFQ (nfqueue) Routing on Ubuntu](https://su
 Snort Docs -- [Payload Detection Rule options](https://docs.snort.org/rules/options/payload/)  
 NFQ code -- [Snort's Github page for daq_nfq.c](https://github.com/snort3/libdaq/blob/master/modules/nfq/daq_nfq.c)  
 
-Are you a video person? -- [Informational and instructional videos, labs, and documents for Snort 3 and Snort 2](https://www.snort.org/resources)
-Snort on Reddit -- [r/snort subreddit](https://www.reddit.com/r/snort/)
-Snort on pfSense -- [Configuring the Snort Package](https://docs.netgate.com/pfsense/en/latest/packages/snort/setup.html)
-
-
+Are you a video person? -- [Informational and instructional videos, labs, and documents for Snort 3 and Snort 2](https://www.snort.org/resources)  
+More on YouTube.com -- [Cisco Talos Intelligence Group](https://www.youtube.com/playlist?list=PLpPXZRVU-dX33VNUeqWrMmBNf5FeKVmi-)  
+Snort on Reddit -- [r/snort subreddit](https://www.reddit.com/r/snort/)  
+Snort on pfSense -- [Configuring the Snort Package](https://docs.netgate.com/pfsense/en/latest/packages/snort/setup.html)  
