@@ -1,4 +1,4 @@
-# firewallProjectPublic
+# Firewall Attack Project
 
 Hi, I'm sharing several Snort 3 and Docker config files here. 
 
