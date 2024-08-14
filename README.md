@@ -1,6 +1,15 @@
 # firewallProjectPublic
 
-Hi, I'm sharing several Snort 3 config files here. Right now I'm doing this to solicit some help getting through the last step (I hope it's the last step!). 
+Hi, I'm sharing several Snort 3 config files here. 
+
+Originally I posted this seeking help in getting Snort 3 running in a Docker container (inside a VM, to boot). 
+
+Now I'm keeping this posted to share my Snort3-Docker config. I couldn't find a single resource, or even ten resources, that showed how to make this run the way I'm running it.
+
+These are some of the files included here:
+- snort.lua -- Note the snort.lua for Snort 3, no longer a snort.conf
+- Dockerfile -- please don't laugh (out loud), and please make suggestions
+- cs6035.rules -- custom rules for the project, in progress
 
 ## Snort 3 and Docker
 
