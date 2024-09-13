@@ -2,7 +2,7 @@
 
 Hi, I'm sharing several Snort 3 and Docker config files here. 
 
-- F
+- File structure at end of file
 
 Originally I posted this seeking help in getting Snort 3 running in a Docker container (inside a VM, to boot). 
 
@@ -67,3 +67,87 @@ Are you a video person? -- [Informational and instructional videos, labs, and do
 More on YouTube.com -- [Cisco Talos Intelligence Group](https://www.youtube.com/playlist?list=PLpPXZRVU-dX33VNUeqWrMmBNf5FeKVmi-)  
 Snort on Reddit -- [r/snort subreddit](https://www.reddit.com/r/snort/)  
 Snort on pfSense -- [Configuring the Snort Package](https://docs.netgate.com/pfsense/en/latest/packages/snort/setup.html)  
+
+## File Structure
+
+Top leve files:
+community-rules.tar.gz
+convert_rules.sh
+cs6035.rules
+Dockerfile
+Dockerfile.813apt
+Dockerfile.apt-get
+Dockerfile.bak
+Dockerfile.linton
+Dockerfile.short
+firewallApp.yml
+README.md
+snort2lua
+snort.conf
+snort.conf.bak
+snort_defaults.lua
+snort.lua
+snort.lua.bak
+snort.lua.longdaq
+snortrules-snapshot-29111.tar.gz
+startup.sh
+
+DIR - community-rules/
+AUTHORS
+black_list.rules
+community.rules
+emerging
+file_magic.rules
+LICENSE
+sid-msg.map
+snort.conf.exclude
+VRT-License.txt
+white_list.rules
+
+DIR - emerging3/
+emerging-activex.rules
+emerging-attack_response.rules
+emerging-botcc.portgrouped.rules
+emerging-botcc.rules
+emerging-chat.rules
+emerging-ciarmy.rules
+emerging-compromised.rules
+emerging-current_events.rules
+emerging-deleted.rules
+emerging-dns.rules
+emerging-dos.rules
+emerging-drop.rules
+emerging-dshield.rules
+emerging-exploit.rules
+emerging-ftp.rules
+emerging-games.rules
+emerging-icmp_info.rules
+emerging-icmp.rules
+emerging-imap.rules
+emerging-inappropriate.rules
+emerging-info.rules
+emerging-malware.rules
+emerging-misc.rules
+emerging-mobile_malware.rules
+emerging-netbios.rules
+emerging-p2p.rules
+emerging-policy.rules
+emerging-pop3.rules
+emerging-rpc.rules
+emerging-scada.rules
+emerging-scan.rules
+emerging-shellcode.rules
+emerging-smtp.rules
+emerging-snmp.rules
+emerging-sql.rules
+emerging-telnet.rules
+emerging-tftp.rules
+emerging-tor.rules
+emerging-trojan.rules
+emerging-user_agents.rules
+emerging-voip.rules
+emerging-web_client.rules
+emerging-web_server.rules
+emerging-web_specific_apps.rules
+emerging-worm.rules
+
