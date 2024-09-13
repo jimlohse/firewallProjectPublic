@@ -2,6 +2,8 @@
 
 Hi, I'm sharing several Snort 3 and Docker config files here. 
 
+- F
+
 Originally I posted this seeking help in getting Snort 3 running in a Docker container (inside a VM, to boot). 
 
 Now I'm keeping this posted to share my Snort3-Docker config. I couldn't find a single resource, or even ten resources, that showed how to make this run the way I'm running it.
